@@ -7,11 +7,12 @@ namespace aspnetserver.Data
     {
         public DbSet<Post> Posts { get; set; }
 
+        //TO USE DBSQLITE
         protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder) => dbContextOptionsBuilder.UseSqlite("Data Source =./Data/AppDB.db");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
 
-         //SEEDING FIRST MIGRATION TO SQLITE
+         //SEEDING FIRST MIGRATION TO SQLITE --DUMMY DATA
         {
             Post[] postsToSeed = new Post[6];
 
@@ -25,6 +26,7 @@ namespace aspnetserver.Data
                     Contact = $"000-000{i}"
                 };
             }
+            //ENTIITY TO SEED
             modelBuilder.Entity<Post>().HasData(postsToSeed);
         }
 

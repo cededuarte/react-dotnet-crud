@@ -53,3 +53,4 @@
 /Users/caeduarte/Desktop/Test/aspnetserver/aspnetserver/bin/Debug/net6.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/caeduarte/Desktop/Test/aspnetserver/aspnetserver/bin/Debug/net6.0/Humanizer.dll
 /Users/caeduarte/Desktop/Test/aspnetserver/aspnetserver/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/caeduarte/Desktop/Test/aspnetserver/aspnetserver/bin/Debug/net6.0/Program.cs

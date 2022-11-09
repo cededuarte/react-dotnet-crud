@@ -1,7 +1,16 @@
 ﻿<Properties StartupConfiguration="{7CE358F8-C024-422C-9F14-39D68C97D90E}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.aspnetserver PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="aspnetserver/Program.cs">
     <Files>
-      <File FileName="aspnetserver/Program.cs" Line="11" Column="1" />
+      <File FileName="aspnetserver/Data/Post.cs" Line="27" Column="1" />
+      <File FileName="aspnetserver/Data/AppDBContext.cs" Line="36" Column="1" />
+      <File FileName="aspnetserver/Data/PostRepository.cs" Line="54" Column="36" />
+      <File FileName="aspnetserver/Program.cs" Line="65" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,11 +30,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.aspnetserver PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

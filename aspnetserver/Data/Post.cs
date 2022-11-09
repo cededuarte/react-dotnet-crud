@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 
-//CREATE NECESSARY COLUMNS FOR DATABASE
+//MODEL --CREATE NECESSARY COLUMNS FOR DATABASE
 namespace aspnetserver.Data
 {
     internal sealed class Post
